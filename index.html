@@ -163,6 +163,8 @@ header.scrolled{box-shadow:0 10px 30px rgba(0,0,0,.22)}
 .hero::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;background:radial-gradient(46rem 34rem at 88% -4%,var(--glow),transparent 58%),radial-gradient(40rem 30rem at -6% 108%,color-mix(in srgb,var(--steel) 12%,transparent),transparent 60%)}
 .hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1fr;gap:clamp(1.75rem,4vw,2.75rem);align-items:center;padding-block:clamp(2rem,5vw,3.5rem)}
 @media (min-width:900px){.hero-grid{grid-template-columns:1.02fr .98fr}}
+/* keep the nowrap terminal lines from stretching the grid cell past the viewport */
+.hero-grid>*{min-width:0}
 .hero-title{font-size:clamp(2.5rem,6.6vw,4.5rem);font-weight:800;letter-spacing:-.035em;line-height:.98;margin:.9rem 0 0}
 .hero-sub{font-size:clamp(1.4rem,3.4vw,2.1rem);font-weight:700;letter-spacing:-.02em;color:var(--muted);line-height:1;margin-top:.3rem}
 /* headline: the words themselves are the entrance — each rises and de-blurs, staggered */
@@ -185,7 +187,8 @@ header.scrolled{box-shadow:0 10px 30px rgba(0,0,0,.22)}
 @media (prefers-reduced-motion: reduce){.avail i{animation:none}}
 
 /* ---- SIGNATURE: live detection console ---- */
-.console{position:relative;background:linear-gradient(180deg,var(--con-bg-2),var(--con-bg));border:1px solid var(--con-line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow-hover);display:flex;flex-direction:column;min-height:clamp(20rem,32vw,24rem)}
+.hero-console{min-width:0;max-width:100%}
+.console{position:relative;max-width:100%;background:linear-gradient(180deg,var(--con-bg-2),var(--con-bg));border:1px solid var(--con-line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow-hover);display:flex;flex-direction:column;min-height:clamp(20rem,32vw,24rem)}
 .console::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(24rem 12rem at 78% -10%,var(--glow),transparent 60%);opacity:.7}
 .con-bar{position:relative;display:flex;align-items:center;gap:.75rem;padding:.62rem .9rem;background:rgba(0,0,0,.25);border-bottom:1px solid var(--con-line)}
 .con-live{display:inline-flex;align-items:center;gap:.42rem;font-family:var(--mono);font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--live)}
