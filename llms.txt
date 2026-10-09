@@ -1,0 +1,22 @@
+# Nagarajan Thathasamy — Security Engineer
+
+> Security engineer in Chennai, India with 3+ years in SOC operations, detection engineering, incident response and digital forensics (DFIR). Security Engineer (SecOps L2/L3) at Zoho Corporation since Aug 2025; SOC Analyst at Intellect Design Arena from Jun 2023 to Aug 2025. Microsoft Certified: Security Operations Analyst Associate (SC-200).
+
+Key facts:
+
+- Protects a hybrid estate of 40,000+ endpoints across AWS, Azure and on-prem.
+- EDR / XDR: CrowdStrike Falcon administration (sensor health, policies, host groups, device/USB control, custom IOAs), Cynet XDR, Trend Micro Apex One.
+- SIEM: CrowdStrike Falcon LogScale (NG-SIEM), ManageEngine Log360, IBM QRadar, FortiSIEM, Microsoft Sentinel. Onboards log sources, writes parsers, correlation and detection rules mapped to MITRE ATT&CK and the Cyber Kill Chain.
+- AI security: CrowdStrike Falcon AIDR policies that detect sensitive-data leakage and prompt injection in AI tools.
+- Also: SpyCloud credential-leak monitoring, Forcepoint DLP, Magnet AXIOM and Cellebrite forensics, Nessus and Qualys vulnerability management, Python automation.
+- Built LogSec (AI-assisted, case-based SIEM that searches 1.6M+ events per file in under a second with a local LLM), GIT Recon (source-code and dark-web secret-exposure scanner, 7,000+ findings) and Vuln-MS (vulnerability management platform, 150+ scans a month).
+
+## Profile
+
+- [Portfolio](https://nagarajant37.github.io/): expertise, selected work, products, experience, skills, credentials and contact
+- [GitHub](https://github.com/Nagarajant37): profile README with an ASCII-portrait terminal and a live CISA KEV threat feed
+- [LinkedIn](https://www.linkedin.com/in/nagarajan-t-187731213/)
+
+## Contact
+
+- Email: nagarajan.thathasamy@gmail.com
